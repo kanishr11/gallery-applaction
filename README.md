@@ -6,6 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+## Live Demo
+
+Link https://gallery-applaction-c02z7msnv-kanishr11s-projects.vercel.app/
 ### `npm start`
 
 Runs the app in the development mode.\
