@@ -80,19 +80,20 @@ label:hover{
 .img-wrap{
   overflow: hidden;
   height: 0;
-  padding: 15% 0;
+  padding: 50% 0;
   /* padding controls height, will always be perfectly square regardless of width */
   position: relative;
   opacity: 0.8;
 }
 .img-wrap img{
-  min-width: 30%;
-  min-height: 30%;
-  max-width: 40%;
+  min-width: 40%;
+  min-height: 40%;
+  max-width: 60%;
   position: absolute;
   top: 0;
   left: 0;
 }
+
 
 /* modal styles */
 .backdrop{

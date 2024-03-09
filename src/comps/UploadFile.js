@@ -9,7 +9,7 @@ export const UploadFile = () => {
 
     const types = ['image/jpeg','image/png'];
 
-    const changeHandler=(e)=>{
+    const handleChange=(e)=>{
         let selected = e.target.files[0];
         console.log(selected);
         if(selected && types.includes(selected.type)){
@@ -23,7 +23,7 @@ export const UploadFile = () => {
   return (
     <form>
         <label>
-        <input type='file' onChange={changeHandler}/>
+        <input type='file' onChange={handleChange}/>
         <span>+</span>
         </label>
        
